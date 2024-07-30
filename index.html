@@ -1,42 +1,19 @@
-function setup() {
-  createCanvas(400, 400);
- 
-  let palavras= ["Computador", "Computação","Computar"]
-  palavra = random(palavras);
-  
-  background("purple");
-  fill ("pink");
-  textSize(64);
-  textAlign(CENTER,CENTER);
-  
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.1/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
 
-function inicializaCores(){
-  
-}
+  </head>
+  <body>
+    <main>
+    </main>
+    <script src="sketch.js"></script>
+  </body>
+</html>
 
-function draw() {
-
-  let maximo = width;
-  let minimo = 0
-   //mouseX, 0, width ==> 0, palavra.lengt
-  let palavrade = map(mouseX, 0, width,1, palavra.length);
-  //console.log(quantidade);
-  let parcial = palavra
-  text(parcial, 200,200);
-
-  
-  // if(mouseX <50){
-  // let palavra = "C";
-  // text(palavra,200,200);
-  //} else if (mouseX <100){
-  // let palavra "Com";
-  // text(palavra,200,200);
-  //} else {
-  // let palavra = "Computador";
-  // text (palavra,200,200);
-  //}
-  
   
   
   
